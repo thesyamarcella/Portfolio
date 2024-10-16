@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import {Select,SelectContent,SelectItem,SelectTrigger,SelectValue,} from "@/components/ui/select"
 
-export const ContactForm = () => {
+export const Contacts = () => {
     return (
       <div className="flex">
         <Card className="mx-24">
@@ -31,7 +31,7 @@ export const ContactForm = () => {
           </form>
         </CardContent>
         <CardFooter className="flex justify-between">
-          <Button className="right-6">Submit</Button>
+          <Button variant="outline" className="right-6 border-indigo-400">Submit</Button>
         </CardFooter>
       </Card>
       </div>
